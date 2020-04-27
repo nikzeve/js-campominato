@@ -9,4 +9,17 @@
 // con difficoltà 2=> si gioca con numeri che vanno da 1 a 50
 
 
-console.log(ciao);
+// console.log('ciao');
+
+// creare un vettore dove inseriremo i 16 numeri casuali creati dal computer
+var numeri_casuali = [];
+var limite_numeri_casuali = 16
+
+for (var i = 0; i < 16; i++) {
+
+    numeri_casuali[i] = Math.floor(Math.random() * 100) + 1;  
+
+
+}
+
+console.log(numeri_casuali);
